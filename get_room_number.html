@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati&display=swap" rel="stylesheet">
+
+    <title>Simple Quiz App</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Gujarati', sans-serif;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .page {
+            display: none;
+            padding: 40px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .question {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .options button {
+            display: block;
+            margin: 10px auto;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Start Page -->
+    <div id="startPage" class="page active">
+        <h1>n માં દીર્ઘમિલનમાં આપનું સ્વાગત છે</h1>
+
+  <label for="talukaSelect">તાલુકો પસંદ કરો:</label><br>
+  <select id="talukaSelect" onchange="populateKendras()">
+    <option value="">--તાલુકો પસંદ કરો--</option>
+  </select>
+  <br><br>
+
+  <label for="kendraSelect">કેન્દ્ર પસંદ કરો:</label><br>
+  <select id="kendraSelect">
+    <option value="">--કેન્દ્ર પસંદ કરો--</option>
+  </select>
+  <br><br>
+
+  <button onclick="startQuiz()">Launch Quiz</button>
+    </div>
+
+    <!-- attandance -->
+    <div>
+
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quizPage" class="page">
+        <div class="question" id="questionText"></div>
+        <div class="options" id="optionsContainer"></div>
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <!-- Result Page -->
+    <div id="resultPage" class="page">
+        <h2>Quiz Completed!</h2>
+        <p id="scoreText"></p>
+        <button onclick="restartQuiz()">Restart</button>
+    </div>
+
+    <script>
+            let rawData = [];
+            // Load data from data.json and populate Talukas
+            async function loadData() {
+                const res = await fetch('attandee_list.json');
+                rawData = await res.json();
+
+                const talukaSelect = document.getElementById('talukaSelect');
+                const talukas = [...new Set(rawData.map(item => item.taluko))];
+
+                talukas.forEach(t => {
+                    const option = document.createElement('option');
+                    option.value = t;
+                    option.textContent = t.charAt(0).toUpperCase() + t.slice(1);
+                    talukaSelect.appendChild(option);
+                });
+            }
+
+            // Populate Kendras based on selected Taluka
+            function populateKendras() {
+                const selectedTaluka = document.getElementById('talukaSelect').value;
+                const kendraSelect = document.getElementById('kendraSelect');
+                kendraSelect.innerHTML = '<option value="">--કેન્દ્ર પસંદ કરો--</option>';
+
+                const kendras = [
+                    ...new Set(
+                        rawData
+                            .filter(item => item.taluko === selectedTaluka)
+                            .map(item => item.kendra)
+                    )
+                ];
+
+                kendras.forEach(k => {
+                    const option = document.createElement('option');
+                    option.value = k;
+                    option.textContent = k;
+                    kendraSelect.appendChild(option);
+                });
+            }
+
+            window.addEventListener("load", loadData);
+
+        // logic
+        let currentQuestion = 0;
+        let score = 0;
+        let selectedAnswer = null;
+
+        async function startAttandance(taluka, kendra) {
+            // fetch 
+            let attandees = await fetch("attandee_list.json");
+            if (attandees && attandees.length > 0) {
+                let taluka_list = attandees.filter(x => x.taluka == taluka && kendra == kendra);
+            }
+        }
+
+        function showPage(id) {
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+
+        function startQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            showPage('quizPage');
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const q = questions[currentQuestion];
+            document.getElementById('questionText').textContent = q.question;
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+
+            q.options.forEach(option => {
+                const btn = document.createElement('button');
+                btn.textContent = option;
+                btn.onclick = () => {
+                    selectedAnswer = option;
+                    Array.from(optionsContainer.children).forEach(b => b.disabled = true);
+                    if (option === q.answer) score++;
+                };
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function nextQuestion() {
+            if (selectedAnswer === null) return alert("Please select an answer.");
+            selectedAnswer = null;
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function showResult() {
+            document.getElementById('scoreText').textContent = `You scored ${score} out of ${questions.length}`;
+            showPage('resultPage');
+        }
+
+        function restartQuiz() {
+            showPage('startPage');
+        }
+    </script>
+</body>
+
+</html>
