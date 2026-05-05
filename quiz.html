@@ -1,0 +1,256 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Gujarati', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .page {
+            display: none;
+            padding: 40px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            width: auto;
+        }
+
+        .question {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .options button {
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+        }
+
+        .question-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .page-heading {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        select {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .attandee-list {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .form-select {
+            max-width: 300px;
+            margin: 10px auto;
+        }
+
+        .form-check {
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        .form-check-input:checked {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .form-check-input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+        }
+
+        .form-check-input {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .form-check-label {
+            font-size: 1.1rem;
+            padding-left: 10px;
+        }
+
+        .form-check-input:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .is-invalid {
+            border-color: #dc3545;
+        }
+
+        .invalid-feedback {
+            display: block;
+            color: #dc3545;
+        }
+    </style>
+</head>
+
+  
+  <body>
+    <!-- Start Page -->
+    <div id="startPage" class="page">
+        <div class="container">
+            <h1 class="page-heading">ક્વિઝ - ચાલો જાણીએ</h1>
+            <ui class="container" style="text-align:left;">
+              <li>
+                ક્વિઝમાં ૩ પ્રશ્નો હશે
+              </li>
+              <li>
+                જો ૩માંથી ૨ પ્રશ્નોના સાચા જવાબ આપ્યા હશે તો યુવાન એક વિચારપત્રક લઈ શકશે.
+              </li>
+            </ui>
+            <button class="btn btn-primary" onclick="startQuiz()">ક્વિઝ શરૂ કરો</button>
+        </div>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quizPage" class="page">
+        <div class="container question-container">
+            <div class="question" id="questionText"></div>
+            <div class="options" id="optionsContainer"></div>
+            <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+        </div>
+    </div>
+
+    <!-- Result Page -->
+    <div id="resultPage" class="page">
+        <div class="container">
+            <h2>Quiz Completed!</h2>
+            <p id="scoreText"></p>
+            <button class="btn btn-primary" onclick="restartQuiz()">Restart</button>
+        </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  
+  const maxQuestion = 3;
+  let quizQuestions = [];
+  let questionAsked = [];
+  let questionAskedArchive = [];
+  let currentQuestion = 0;
+  let selectedAnswer = '';
+  async function loadData()
+  {
+    const resquizQuestions = await fetch('https://torpid-obvious-beak.glitch.me/questions');
+    quizQuestions = await resquizQuestions.json();
+    
+    showPage("startPage");
+  } 
+  
+  window.addEventListener("load", loadData);
+  
+  function startQuiz() {
+            currentQuestion = getRandomQuestions();
+            score = 0;
+            showPage('quizPage');
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const q = quizQuestions[currentQuestion];
+            document.getElementById('questionText').textContent = q.question;
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            selectedAnswer = '';
+
+            q.options.forEach(option => {
+                const btn = document.createElement('button');
+                btn.textContent = option;
+                btn.onclick = () => {
+                    selectedAnswer = option;
+                    Array.from(optionsContainer.children).forEach(b => {b.disabled = true; if(b.innerText === q.answer){b.style.background = " #ccffdd"} else{ b.style.background = "rgba(255, 0, 0, 0.2)"}});
+                    if (option === q.answer) score++;
+                };
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function nextQuestion() {
+          
+            if (!selectedAnswer || selectedAnswer === null) {
+               selectedAnswer = null; 
+                return alert("Please select an answer.");
+            }
+          
+            if (questionAsked.length == maxQuestion - 1 || questionAsked.length == quizQuestions.length) {
+                questionAsked.push(currentQuestion);
+                questionAskedArchive.push(currentQuestion);
+                showResult();
+                return;
+            }
+            questionAsked.push(currentQuestion);
+            questionAskedArchive.push(currentQuestion);
+            currentQuestion = getRandomQuestions();
+            if (questionAsked.length <= 3 && currentQuestion < quizQuestions.length) {
+                loadQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function showResult() {
+            document.getElementById('scoreText').textContent = `You scored ${score} out of ${maxQuestion}`;
+            showPage('resultPage');
+        }
+
+        function restartQuiz() {
+            if(questionAskedArchive.length >= quizQuestions.length-2){
+               questionAskedArchive = [];
+             }
+            questionAsked = [];
+            showPage('startPage');
+        }
+  
+        function showPage(id) {
+            
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+  
+        function getRandomQuestions(){
+          let find = -1;
+          while(find == -1){
+            find = Math.floor(Math.random() * quizQuestions.length);
+            if(questionAskedArchive.filter(x=> x == find).length > 0){
+              find = -1;
+            }
+          }
+          return find;
+        }
+</script>

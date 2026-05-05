@@ -1,0 +1,741 @@
+[
+    {
+      "id": 64,
+      "name": "VIVEK HITESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 2:54:41 PM"
+    },
+    {
+      "id": 60,
+      "name": "RAJ BHARATBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 2:58:40 PM"
+    },
+    {
+      "id": 88,
+      "name": "MEET JAGDISHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "LAXMINAGAR",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:09:49 PM"
+    },
+    {
+      "id": 117,
+      "name": "RAHUL JAYANTILAL JANI",
+      "taluko": "કલોલ",
+      "kendra": "WHITE HOUSE",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:10:15 PM"
+    },
+    {
+      "id": 6,
+      "name": "DHRUVBHAI RAJENDRBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "AYODHYANAGAR",
+      "varg": "ભાવનીક ક્રાંતિ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:11:01 PM"
+    },
+    {
+      "id": 101,
+      "name": "MANISHBHAI SHUBHASHBHAI NIKUM",
+      "taluko": "કલોલ",
+      "kendra": "PURVA VISTAR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:11:00 PM"
+    },
+    {
+      "id": 5,
+      "name": "MAYURBHAI SHAILESHBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "AYODHYANAGAR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:11:22 PM"
+    },
+    {
+      "id": 69,
+      "name": "AYUSH PRAKASHBHAI RAMI",
+      "taluko": "કલોલ",
+      "kendra": "CHHATRAL",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:11:27 PM"
+    },
+    {
+      "id": 7,
+      "name": "JAYBHAI ARAJANBHAI THAKOR",
+      "taluko": "કડી",
+      "kendra": "BALASAR",
+      "varg": "રાજકીય ક્રાંતિ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:11:40 PM"
+    },
+    {
+      "id": 65,
+      "name": "DAVE RAJ SANJAYKUMAR",
+      "taluko": "કલોલ",
+      "kendra": "ANKIT VIDHYALAYA",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:11:55 PM"
+    },
+    {
+      "id": 8,
+      "name": "VISHALBHAI LAXMANBHAI THAKOR",
+      "taluko": "કડી",
+      "kendra": "BALASAR",
+      "varg": "આર્થિક ક્રાંતિ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:11:58 PM"
+    },
+    {
+      "id": 22,
+      "name": "MANISHBHAI ARVINDBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "RUDR KUTIR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:12:20 PM"
+    },
+    {
+      "id": 94,
+      "name": "DHRUVIL MITESHBHAI JETHAVA",
+      "taluko": "કલોલ",
+      "kendra": "PALSANA",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:12:39 PM"
+    },
+    {
+      "id": 10,
+      "name": "DIVYABHAI VINODBHAI PAREKH",
+      "taluko": "કડી",
+      "kendra": "DHARTICITY",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:12:42 PM"
+    },
+    {
+      "id": 16,
+      "name": "DHAVALBHAI MAHENDRABHAI GAJJAR",
+      "taluko": "કડી",
+      "kendra": "GURUKRUPA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:13:04 PM"
+    },
+    {
+      "id": 107,
+      "name": "MANOJ VISHNUJI THAKOR",
+      "taluko": "કલોલ",
+      "kendra": "SANAVAD",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:13:03 PM"
+    },
+    {
+      "id": 27,
+      "name": "CHINTANBHAI VISHNUBHAI PATEL",
+      "taluko": "બેચરાજી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સન્નિધાતા",
+      "timestamp": "5/31/2025, 3:13:05 PM"
+    },
+    {
+      "id": 28,
+      "name": "KETANBHAI BHAILALBHAI PATEL",
+      "taluko": "બેચરાજી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:13:26 PM"
+    },
+    {
+      "id": 116,
+      "name": "ILESH ATULBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "VAIJNATH",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:13:41 PM"
+    },
+    {
+      "id": 15,
+      "name": "KETULBHAI GANDABHAI PAJAPATI",
+      "taluko": "કડી",
+      "kendra": "GURUKRUPA",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:13:42 PM"
+    },
+    {
+      "id": 115,
+      "name": "AJAY MANUBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "VAIJNATH",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:13:57 PM"
+    },
+    {
+      "id": 29,
+      "name": "NISARGBHAI PRADIPBHAI PANCHAL",
+      "taluko": "બેચરાજી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:13:57 PM"
+    },
+    {
+      "id": 74,
+      "name": "MEET ASHOKBHAI VALAND",
+      "taluko": "કલોલ",
+      "kendra": "FORTUNE",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:14:15 PM"
+    },
+    {
+      "id": 1,
+      "name": "PARESHBHAI GANDABHAI PRAJAPATI",
+      "taluko": "કડી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "આર્થિક ક્રાંતિ",
+      "designation": "સન્નિધાતા",
+      "timestamp": "31/5/2025, 3:14:16 PM"
+    },
+    {
+      "id": 30,
+      "name": "PABUJI GUGAJI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:14:49 PM"
+    },
+    {
+      "id": 62,
+      "name": "MEET MUKESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:15:00 PM"
+    },
+    {
+      "id": 9,
+      "name": "BHAVESHBHAI RAGHAJI THAKOR",
+      "taluko": "કડી",
+      "kendra": "BAVLU",
+      "varg": "સામાજીક ક્રાંતિ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:15:05 PM"
+    },
+    {
+      "id": 31,
+      "name": "DIXITBHAI PRAKASHKUMAR JAYSWAL",
+      "taluko": "બેચરાજી",
+      "kendra": "BAHUCHAR",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:15:07 PM"
+    },
+    {
+      "id": 109,
+      "name": "ARTH VINODBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "SNEH",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:15:20 PM"
+    },
+    {
+      "id": 32,
+      "name": "DHANRAJSINH MAHOBATSINH ZALA",
+      "taluko": "બેચરાજી",
+      "kendra": "BAHUCHAR",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:15:25 PM"
+    },
+    {
+      "id": 20,
+      "name": "KAUTIKBHAI MANUBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "NAVAPURA",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:15:39 PM"
+    },
+    {
+      "id": 79,
+      "name": "DHAVAL PRAVINKUMAR RAVAL",
+      "taluko": "કલોલ",
+      "kendra": "HALL",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:15:51 PM"
+    },
+    {
+      "id": 21,
+      "name": "DEVBHAI BABUBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "NAVAPURA",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:15:59 PM"
+    },
+    {
+      "id": 34,
+      "name": "VIPULSINH BHIKHUBHA SOLANKI",
+      "taluko": "બેચરાજી",
+      "kendra": "CHADASANA",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:16:09 PM"
+    },
+    {
+      "id": 66,
+      "name": "SAIFY MAYURBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "ANKIT VIDHYALAYA",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:16:14 PM"
+    },
+    {
+      "id": 35,
+      "name": "GOVINDSINH RAMESHJI ZALA",
+      "taluko": "બેચરાજી",
+      "kendra": "DEDANA",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:16:35 PM"
+    },
+    {
+      "id": 110,
+      "name": "RUDRAKSH HIRENKUMAR DAVE",
+      "taluko": "કલોલ",
+      "kendra": "SNEH",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:16:48 PM"
+    },
+    {
+      "id": 19,
+      "name": "DHRUVBHAI MAHESHBHAI PANCHOLI",
+      "taluko": "કડી",
+      "kendra": "MARUTINANDAN",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:16:57 PM"
+    },
+    {
+      "id": 75,
+      "name": "HARSH VITTHALBHAI MALI",
+      "taluko": "કલોલ",
+      "kendra": "GAYTRI",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:17:03 PM"
+    },
+    {
+      "id": 37,
+      "name": "YUVRAJSINH MERUBHA SOLANKI",
+      "taluko": "બેચરાજી",
+      "kendra": "DELVADA",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:17:18 PM"
+    },
+    {
+      "id": 76,
+      "name": "ANUJ DEEPAKBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "GAYTRI",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:17:26 PM"
+    },
+    {
+      "id": 38,
+      "name": "JAYPALSINH JAGUBHA SOLANKI",
+      "taluko": "બેચરાજી",
+      "kendra": "DELVADA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:17:37 PM"
+    },
+    {
+      "id": 59,
+      "name": "BRIJESH BHARATBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:17:48 PM"
+    },
+    {
+      "id": 90,
+      "name": "DARSHAN SURESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "NADANVAN",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:18:06 PM"
+    },
+    {
+      "id": 45,
+      "name": "JIGAR DASHARATHJI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "JETPUR",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:18:31 PM"
+    },
+    {
+      "id": 91,
+      "name": "MAYURKUMAR DINESHBHAI PADHIYAR",
+      "taluko": "કલોલ",
+      "kendra": "NADANVAN",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:18:36 PM"
+    },
+    {
+      "id": 63,
+      "name": "RAJ MAHESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:19:05 PM"
+    },
+    {
+      "id": 48,
+      "name": "RAVINKUMAR DHANAJI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "KOTHARPURA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:19:10 PM"
+    },
+    {
+      "id": 4,
+      "name": "DHRUVKUMAR KAUSHIKBHAI ZINZUWADIYA",
+      "taluko": "કડી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "ભાવનીક ક્રાંતિ",
+      "designation": "અવેક્ષક",
+      "timestamp": "31/5/2025, 3:19:16 PM"
+    },
+    {
+      "id": 73,
+      "name": "HARSH RAMESHBHAI NAYEE",
+      "taluko": "કલોલ",
+      "kendra": "FORTUNE",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:19:34 PM"
+    },
+    {
+      "id": 49,
+      "name": "RAHULJI RAMESHJI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "KOTHARPURA",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:19:41 PM"
+    },
+    {
+      "id": 83,
+      "name": "RUSHI GHANSHYAMBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "JOYFULL SCHOOL",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:02 PM"
+    },
+    {
+      "id": 53,
+      "name": "MUKESHBHAI JAYANTIBHAI PRAJAPATI",
+      "taluko": "બેચરાજી",
+      "kendra": "SHANKHALPUR",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:15 PM"
+    },
+    {
+      "id": 12,
+      "name": "HARDIKBHAI MUKESHBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "GHUMASAN",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:20:22 PM"
+    },
+    {
+      "id": 78,
+      "name": "MANISH KANTIBHAI SUTHAR",
+      "taluko": "કલોલ",
+      "kendra": "GOPALNAGAR",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:23 PM"
+    },
+    {
+      "id": 54,
+      "name": "DHRUV VISHNUBHAI PRAJAPATI",
+      "taluko": "બેચરાજી",
+      "kendra": "SHANKHALPUR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:40 PM"
+    },
+    {
+      "id": 77,
+      "name": "ADARSH AMBALAL SHARMA",
+      "taluko": "કલોલ",
+      "kendra": "GOPALNAGAR",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:41 PM"
+    },
+    {
+      "id": 2,
+      "name": "RUSHIBHAI HITESHBHAI KANDOI",
+      "taluko": "કડી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "આધ્યાત્મિક ક્રાંતિ",
+      "designation": "અવેક્ષક",
+      "timestamp": "31/5/2025, 3:20:43 PM"
+    },
+    {
+      "id": 70,
+      "name": "KISHAN PRAHLADBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "CHHATRAL",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:20:58 PM"
+    },
+    {
+      "id": 55,
+      "name": "RAHULJI FULJIJI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "SURAJ",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:21:03 PM"
+    },
+    {
+      "id": 67,
+      "name": "VISHAL ASHOKBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "ARSODIA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:21:31 PM"
+    },
+    {
+      "id": 57,
+      "name": "NIKHIL HARESHBHAI THAKOR",
+      "taluko": "બેચરાજી",
+      "kendra": "VAIJNATH",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:21:34 PM"
+    },
+    {
+      "id": 61,
+      "name": "HARSH MUKESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "અવેક્ષક ",
+      "timestamp": "5/31/2025, 3:22:14 PM"
+    },
+    {
+      "id": 92,
+      "name": "DHARMENDRA GOVINDBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "NARDIPUR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:22:47 PM"
+    },
+    {
+      "id": 114,
+      "name": "HARSH SOMABHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "SOJA",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:23:16 PM"
+    },
+    {
+      "id": 81,
+      "name": "DEEP PARESHBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "JAMDA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:23:44 PM"
+    },
+    {
+      "id": 93,
+      "name": "JITENDRASINH PANKESHKUMAR VAGHELA",
+      "taluko": "કલોલ",
+      "kendra": "NARDIPUR",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:24:07 PM"
+    },
+    {
+      "id": 82,
+      "name": "DEV DINESHBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "JAMDA",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:24:22 PM"
+    },
+    {
+      "id": 112,
+      "name": "NIGAM KANUBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "SOBHASAN",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:25:01 PM"
+    },
+    {
+      "id": 97,
+      "name": "ADARSH KANUBHAI RAVAL",
+      "taluko": "કલોલ",
+      "kendra": "PANSAR",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:25:45 PM"
+    },
+    {
+      "id": 96,
+      "name": "NIRAV BHARATBHAI RAVAL",
+      "taluko": "કલોલ",
+      "kendra": "PANSAR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:27:47 PM"
+    },
+    {
+      "id": 11,
+      "name": "JAIMINBHAI RAMESHBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "DHARTICITY",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:29:10 PM"
+    },
+    {
+      "id": 113,
+      "name": "MITUL MUKESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "SOJA",
+      "varg": "રાજકીય ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:33:10 PM"
+    },
+    {
+      "id": 105,
+      "name": "ROHIT JAYANTIJI THAKOR",
+      "taluko": "કલોલ",
+      "kendra": "SABASPUR",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:35:32 PM"
+    },
+    {
+      "id": 106,
+      "name": "VISHAL VIRAMBHAI RABARI",
+      "taluko": "કલોલ",
+      "kendra": "SABASPUR",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:36:13 PM"
+    },
+    {
+      "id": 85,
+      "name": "SACHIN KAMLESHBHAI PATEL",
+      "taluko": "કલોલ",
+      "kendra": "KALYANPOORA",
+      "varg": "સામાજીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:36:41 PM"
+    },
+    {
+      "id": 86,
+      "name": "MILAN KANTIBHAI PRAJAPATI",
+      "taluko": "કલોલ",
+      "kendra": "KALYANPOORA",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:37:30 PM"
+    },
+    {
+      "id": 58,
+      "name": "HARSH HITESHBHAI CHAVDA",
+      "taluko": "બેચરાજી",
+      "kendra": "VAIJNATH",
+      "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "5/31/2025, 3:39:20 PM"
+    },
+    {
+      "id": 3,
+      "name": "AMITBHAI ASHOKBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "સન્નિધાતા/અવેક્ષક",
+      "varg": "સામાજીક ક્રાંતિ",
+      "designation": "અવેક્ષક",
+      "timestamp": "31/5/2025, 3:41:19 PM"
+    },
+    {
+      "id": 25,
+      "name": "SAHILBHAI NARESHBHAI RAVAL",
+      "taluko": "કડી",
+      "kendra": "UMANAGAR",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:41:44 PM"
+    },
+    {
+      "id": 18,
+      "name": "SIDHDHARAJBHAI PRAVINBHAI THAKOR",
+      "taluko": "કડી",
+      "kendra": "MARUTINANDAN",
+      "varg": "ભાવનીક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:52:38 PM"
+    },
+    {
+      "id": 13,
+      "name": "UTTAMBHAI DINESHBHAI PATEL",
+      "taluko": "કડી",
+      "kendra": "GURUDEV",
+      "varg": "આર્થિક ક્રાંતિ  ",
+      "designation": "સંચાલક",
+      "timestamp": "31/5/2025, 3:53:21 PM"
+    }
+  ]
+  

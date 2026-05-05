@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>દીર્ઘમિલન</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Gujarati', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+      
+        #loadingScreen {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(255, 255, 255, 0.9);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 24px;
+          color: #333;
+          z-index: 9999;
+        }
+
+        .page {
+            display: none;
+            padding: 40px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            width: auto;
+        }
+
+        .question {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .options button {
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+        }
+
+        .question-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .page-heading {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        select {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .attandee-list {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .form-select {
+            max-width: 300px;
+            margin: 10px auto;
+        }
+
+        .form-check {
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        .form-check-input:checked {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .form-check-input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+        }
+
+        .form-check-input {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .form-check-label {
+            font-size: 1.1rem;
+            padding-left: 10px;
+        }
+
+        .form-check-input:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .is-invalid {
+            border-color: #dc3545;
+        }
+
+        .invalid-feedback {
+            display: block;
+            color: #dc3545;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loadingScreen">Loading...</div>
+
+    <!-- Start Page -->
+    <div id="startPage" class="page active">
+        <div class="container">
+            <h1 class="page-heading">દીર્ઘમિલનમાં આપનું સ્વાગત છે</h1>
+
+            <div class="mb-3">
+                <label for="talukaSelect" class="form-label">તાલુકો પસંદ કરો:</label>
+                <select id="talukaSelect" class="form-select" onchange="populateKendras()" required>
+                    <option value="">--તાલુકો પસંદ કરો--</option>
+                </select>
+                <div class="invalid-feedback d-none">કૃપા કરીને તાલુકો પસંદ કરો.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="kendraSelect" class="form-label">કેન્દ્ર પસંદ કરો:</label>
+                <select id="kendraSelect" class="form-select" onchange="populateDesignation()" required>
+                    <option value="">--કેન્દ્ર પસંદ કરો--</option>
+                </select>
+                <div class="invalid-feedback d-none">કૃપા કરીને કેન્દ્ર પસંદ કરો.</div>
+            </div>
+          
+            <div class="mb-3">
+                <label for="designationSelect" class="form-label">જવાબદારી પસંદ કરો:</label>
+                <select id="designationSelect" class="form-select" onchange="populateAttande()" required>
+                    <option value="">--જવાબદારી પસંદ કરો--</option>
+                </select>
+                <div class="invalid-feedback d-none">કૃપા કરીને જવાબદારી પસંદ કરો.</div>
+            </div>
+
+            <div id="attandeeList" class="attandee-list mb-4" style="background: #dce1ea;"></div>
+            <button class="btn btn-primary" onclick="startAttandance()">Start Attendance</button>
+        </div>
+    </div>
+
+    <!-- Attandance Page -->
+    <div id="startAttandance" class="page">
+        <div class="container">
+            <h1 class="page-heading" id="startAttandance_attandee"></h1>
+            <h2 id="startAttandance_attandee_room"></h2>
+            <button class="btn btn-primary" onclick="showPage('startPage')">New Attendance</button>
+        </div>
+    </div>
+
+    <script>
+        let rawData = [];
+        let quizQuestions = [];
+        
+        async function loadData() {
+            
+            const talukaSelect = document.getElementById('talukaSelect');
+            const talukas = [{"display":"કડી", val:"kad"},{"display":"બેચરાજી", val:"bec"},{"display":"કલોલ", val:"kal"}];
+
+            talukas.forEach(t => {
+                const option = document.createElement('option');
+                option.value = t.val;
+                option.textContent = t.display;
+                option.setAttribute("taluko",t.display);
+                talukaSelect.appendChild(option);
+            });
+          hideLoading();
+        }
+
+        // Populate Kendras based on selected Taluka
+        async function populateKendras() {
+          
+            showLoading();
+            const selectedTaluka = document.getElementById('talukaSelect');
+            const selectedTalukaValue = document.getElementById('talukaSelect').value;
+            const selectedTalukaDisplay = selectedTaluka.options[selectedTaluka.selectedIndex].text;
+          
+            document.getElementById('attandeeList').innerHTML = '';
+          
+            const resRawData = await fetch(`https://torpid-obvious-beak.glitch.me/attendees/${selectedTalukaValue}`);
+            rawData = await resRawData.json();
+          
+            const kendraSelect = document.getElementById('kendraSelect');
+            kendraSelect.innerHTML = '<option value="">--કેન્દ્ર પસંદ કરો--</option>';
+
+            const kendras = [
+                ...new Set(
+                    rawData
+                        .filter(item => item.taluko === selectedTalukaDisplay).map(x => x.kendra)
+                )
+            ];
+
+            kendras.forEach(k => {
+                const option = document.createElement('option');
+                option.value = k;
+                option.textContent = k;
+                kendraSelect.appendChild(option);
+            });
+          
+          hideLoading();
+        }
+      
+        // Populate Kendras based on selected Taluka
+        function populateDesignation() {
+            showLoading();
+            const selectedTaluka = document.getElementById('talukaSelect');
+            const selectedTalukaValue = document.getElementById('talukaSelect').value;
+            const selectedTalukaDisplay = selectedTaluka.options[selectedTaluka.selectedIndex].text;
+          
+            document.getElementById('attandeeList').innerHTML = '';
+          
+            const selectedkendra = document.getElementById('kendraSelect').value;
+          const designationSelect = document.getElementById('designationSelect');
+            designationSelect.innerHTML = '<option value="">--કેન્દ્ર પસંદ કરો--</option>';
+
+            const designations = [
+                ...new Set(
+                    rawData
+                        .filter(item => item.taluko === selectedTalukaDisplay && item.kendra === selectedkendra).map(x => x.designation)
+                )
+            ];
+
+            designations.forEach(k => {
+                const option = document.createElement('option');
+                option.value = k;
+                option.textContent = k;
+                designationSelect.appendChild(option);
+            });
+          
+            hideLoading();
+        }
+
+
+        function populateAttande() {
+          
+            showLoading();
+          
+            const selectedTaluka = document.getElementById('talukaSelect');
+            const selectedTalukaValue = document.getElementById('talukaSelect').value;
+            const selectedTalukaDisplay = selectedTaluka.options[selectedTaluka.selectedIndex].text;
+          
+            document.getElementById('attandeeList').innerHTML = '';
+          
+            const selectedKendra = document.getElementById('kendraSelect').value;
+            const selectedDesignation = document.getElementById('designationSelect').value;
+            const attandeeList = document.getElementById('attandeeList');
+            attandeeList.innerHTML = '';
+
+            const attandees = [
+                ...new Set(
+                    rawData
+                        .filter(item => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.designation === selectedDesignation)
+                )
+            ];
+          
+            let attandee_list = "";
+            attandees.forEach(i => {
+                attandee_list += `
+                    <div class="my-3 mx-2">
+                        <input class="form-check-input" type="radio" name="attandee" attendee_id="${i.id}" id="attandee_${i.name}" value="${i.name}">
+                        <label class="form-check-label" for="attandee_${i.name}">
+                            ${i.name}
+                        </label>
+                    </div>
+                `;
+            });
+
+            attandeeList.innerHTML = attandee_list;
+            hideLoading();
+        }
+
+        window.addEventListener("load", loadData);
+
+        // Logic for validating the form before going to the attendance page
+        function validateStartAttendance() {
+            const talukaSelect = document.getElementById('talukaSelect');
+            const kendraSelect = document.getElementById('kendraSelect');
+            const designationSelect = document.getElementById('designationSelect');
+            let valid = true;
+
+            // Reset any previous error styles
+            talukaSelect.classList.remove('is-invalid');
+            kendraSelect.classList.remove('is-invalid');
+            designationSelect.classList.remove('is-invalid');
+
+            // Validate Taluka selection
+            if (talukaSelect.value === "") {
+                talukaSelect.classList.add('is-invalid');
+                valid = false;
+            }
+
+            // Validate Kendra selection
+            if (kendraSelect.value === "") {
+                kendraSelect.classList.add('is-invalid');
+                valid = false;
+            }
+          
+            if (designationSelect.value === "") {
+                designationSelect.classList.add('is-invalid');
+                valid = false;
+            }
+
+            const selectedRadio = document.querySelector('input[name="attandee"]:checked');
+            valid = selectedRadio !== null;
+            if(!selectedRadio || selectedRadio == null){
+              alert("કૃપા કરીને નામ પસંદ કરો");
+            }
+
+            return valid;
+        }
+
+        async function startAttandance() {
+            if (!validateStartAttendance()) {
+                return;
+            }
+          
+            showLoading();  
+
+            const selectedTaluka = document.getElementById('talukaSelect');
+            const selectedTalukaValue = document.getElementById('talukaSelect').value;
+            const selectedTalukaDisplay = selectedTaluka.options[selectedTaluka.selectedIndex].text;
+          
+            const selectedKendra = document.getElementById('kendraSelect').value;
+            const selectedName = document.querySelector('input[name="attandee"]:checked').value;
+            const attendeeId = document.querySelector('input[name="attandee"]:checked').getAttribute("attendee_id")
+            
+            const attandeeName = rawData.find((item) => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.name === selectedName && item.id == Number(attendeeId));
+          
+            if(!attandeeName){
+              alert("No attandees are found - reporting failed.");
+              hideLoading();
+              return;
+            }
+          
+            if(attandeeName.name){
+                document.getElementById("startAttandance_attandee").innerText = `હાજરી : ${attandeeName.name}`;
+                document.getElementById("startAttandance_attandee_room").innerText = `ફાડવેલો વર્ગ : ${attandeeName.varg}`;
+                attandeeName.timestamp = new Date(Date.now()).toLocaleString();
+            }
+          
+            let resAttendanceList = await fetch('https://torpid-obvious-beak.glitch.me/attendanceList');
+            let attendanceList = await resAttendanceList.json();
+            
+            
+            let _attendee = attendanceList.find((item) => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.name === selectedName && item.id === attandeeName.id);
+          
+            if(_attendee && _attendee.name && _attendee.name.length > 0){
+              showPage('startAttandance');
+              hideLoading();
+              return;
+            }
+          
+            fetch('https://torpid-obvious-beak.glitch.me/attendance', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(attandeeName)
+            })
+            .then(response => response.json())
+            .then(data => {
+              if(data && data.name){
+                  showPage('startAttandance');                
+              }
+              else{
+                alert("reporting failed");
+              }
+              hideLoading();
+            })
+            .catch(error => {
+              alert("reporting failed");
+              console.log(error);
+              hideLoading();
+            });
+        }
+
+        function showPage(id) {
+            
+            showLoading();
+            if(id == "startPage"){
+              location.reload();
+            }
+          
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+          
+            if(id != "startPage"){
+              hideLoading();
+            }
+        }
+      
+      function showLoading() {
+        document.getElementById('loadingScreen').style.display = 'flex';
+      }
+
+      function hideLoading() {
+        document.getElementById('loadingScreen').style.display = 'none';
+      }
+    </script>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+post https://torpid-obvious-beak.glitch.me/attendance
+content-type: application/json
+
+{
+    "name":"uttam2",
+    "taluka":"kadi2",
+    "kendra":"vatsalya1",
+    "timestamp":"05/26/2025"
+}
