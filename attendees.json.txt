@@ -118,45 +118,5 @@
     "varg": 3,
     "designation": "Avekshak",
     "taluko": "PATAN"
-  },
-  {
-    "id": 16,
-    "kendra": "",
-    "name": "CHETAKJI BABUJI THAKOR",
-    "varg": 4,
-    "designation": "Avekshak",
-    "taluko": "PATAN"
-  },
-  {
-    "id": 17,
-    "kendra": "",
-    "name": "AVIBHAI JITENDRABHAI PATEL",
-    "varg": 1,
-    "designation": "Avekshak",
-    "taluko": "PATAN"
-  },
-  {
-    "id": 18,
-    "kendra": "",
-    "name": "ATRIBHAI YOGESHBHAI THAKKAR",
-    "varg": 2,
-    "designation": "Avekshak",
-    "taluko": "PATAN"
-  },
-  {
-    "id": 19,
-    "kendra": "",
-    "name": "NIHARBHAI GHANSHYAMBHAI THAKKAR",
-    "varg": 5,
-    "designation": "Avekshak",
-    "taluko": "SIDDHPUR"
-  },
-  {
-    "id": 20,
-    "kendra": "",
-    "name": "DIPAKSINH RAMABHAI RATHOD",
-    "varg": 6,
-    "designation": "Avekshak",
-    "taluko": "SAMI"
   }
 ]

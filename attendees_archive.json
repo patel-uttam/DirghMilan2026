@@ -1,0 +1,946 @@
+[
+  {
+    "id": 1,
+    "kendra": "લાગુ નથી",
+    "name": "PARESHBHAI GANDABHAI PRAJAPATI",
+    "varg": "આર્થિક ક્રાંતિ",
+    "designation": "સન્નિધાતા",
+    "taluko": "કડી"
+  },
+  {
+    "id": 2,
+    "kendra": "લાગુ નથી",
+    "name": "RUSHIBHAI HITESHBHAI KANDOI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ",
+    "designation": "અવેક્ષક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 3,
+    "kendra": "લાગુ નથી",
+    "name": "AMITBHAI ASHOKBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ",
+    "designation": "અવેક્ષક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 4,
+    "kendra": "લાગુ નથી",
+    "name": "DHRUVKUMAR KAUSHIKBHAI ZINZUWADIYA",
+    "varg": "ભાવનીક ક્રાંતિ",
+    "designation": "અવેક્ષક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 5,
+    "kendra": "AYODHYANAGAR",
+    "name": "MAYURBHAI SHAILESHBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 6,
+    "kendra": "AYODHYANAGAR",
+    "name": "DHRUVBHAI RAJENDRBHAI PATEL",
+    "varg": "ભાવનીક ક્રાંતિ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 7,
+    "kendra": "BALASAR",
+    "name": "JAYBHAI ARAJANBHAI THAKOR",
+    "varg": "રાજકીય ક્રાંતિ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 8,
+    "kendra": "BALASAR",
+    "name": "VISHALBHAI LAXMANBHAI THAKOR",
+    "varg": "આર્થિક ક્રાંતિ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 9,
+    "kendra": "BAVLU",
+    "name": "BHAVESHBHAI RAGHAJI THAKOR",
+    "varg": "સામાજીક ક્રાંતિ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 10,
+    "kendra": "DHARTICITY",
+    "name": "DIVYABHAI VINODBHAI PAREKH",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 11,
+    "kendra": "DHARTICITY",
+    "name": "JAIMINBHAI RAMESHBHAI PATEL",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 12,
+    "kendra": "GHUMASAN",
+    "name": "HARDIKBHAI MUKESHBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 13,
+    "kendra": "GURUDEV",
+    "name": "UTTAMBHAI DINESHBHAI PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 14,
+    "kendra": "GURUDEV",
+    "name": "DHRUVBHAI SUKHADEVHAI VAISHNAV",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 15,
+    "kendra": "GURUKRUPA",
+    "name": "KETULBHAI GANDABHAI PAJAPATI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 16,
+    "kendra": "GURUKRUPA",
+    "name": "DHAVALBHAI MAHENDRABHAI GAJJAR",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 17,
+    "kendra": "KHERPUR",
+    "name": "PANKAJSIINH NAVUBHA SOLANKI",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 18,
+    "kendra": "MARUTINANDAN",
+    "name": "SIDHDHARAJBHAI PRAVINBHAI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 19,
+    "kendra": "MARUTINANDAN",
+    "name": "DHRUVBHAI MAHESHBHAI PANCHOLI",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 20,
+    "kendra": "NAVAPURA",
+    "name": "KAUTIKBHAI MANUBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 21,
+    "kendra": "NAVAPURA",
+    "name": "DEVBHAI BABUBHAI PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 22,
+    "kendra": "RUDR KUTIR",
+    "name": "MANISHBHAI ARVINDBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 23,
+    "kendra": "SADARA",
+    "name": "UTSAVBHAI VIKRAMSINH ZALA",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 24,
+    "kendra": "THOL",
+    "name": "PRAHALADBHAI GOPALBHAI VANAJARA",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 25,
+    "kendra": "UMANAGAR",
+    "name": "SAHILBHAI NARESHBHAI RAVAL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 26,
+    "kendra": "VAMAJ",
+    "name": "BHAVINBHAI BHARATBHAI MEHTA",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કડી"
+  },
+  {
+    "id": 27,
+    "kendra": "લાગુ નથી",
+    "name": "CHINTANBHAI VISHNUBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સન્નિધાતા",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 28,
+    "kendra": "લાગુ નથી",
+    "name": "KETANBHAI BHAILALBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 29,
+    "kendra": "લાગુ નથી",
+    "name": "NISARGBHAI PRADIPBHAI PANCHAL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 30,
+    "kendra": "લાગુ નથી",
+    "name": "PABUJI GUGAJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 31,
+    "kendra": "BAHUCHAR",
+    "name": "DIXITBHAI PRAKASHKUMAR JAYSWAL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 32,
+    "kendra": "BAHUCHAR",
+    "name": "DHANRAJSINH MAHOBATSINH ZALA",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 33,
+    "kendra": "CHADASANA",
+    "name": "PRAVIN SURESHBHAI RAVAL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 34,
+    "kendra": "CHADASANA",
+    "name": "VIPULSINH BHIKHUBHA SOLANKI",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 35,
+    "kendra": "DEDANA",
+    "name": "GOVINDSINH RAMESHJI ZALA",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 36,
+    "kendra": "DEDANA",
+    "name": "MIHIRSINH NAVINSINH ZALA",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 37,
+    "kendra": "DELVADA",
+    "name": "YUVRAJSINH MERUBHA SOLANKI",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 38,
+    "kendra": "DELVADA",
+    "name": "JAYPALSINH JAGUBHA SOLANKI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 39,
+    "kendra": "DEVGADH",
+    "name": "PARTH VIJAYBHAI SUTHAR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 40,
+    "kendra": "DEVGADH",
+    "name": "TEJAS VIJAYBHAI SUTHAR",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 41,
+    "kendra": "GANESHPURA",
+    "name": "UTSAVBHAI PRAVINBHAI PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 42,
+    "kendra": "GANESHPURA",
+    "name": "KUNJ MAHESHBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 43,
+    "kendra": "HARIPURA",
+    "name": "PRAVINSINH KUVARSINH THAKOR",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 44,
+    "kendra": "HARIPURA",
+    "name": "SACHIN ISHAJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 45,
+    "kendra": "JETPUR",
+    "name": "JIGAR DASHARATHJI THAKOR",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 46,
+    "kendra": "JETPUR",
+    "name": "SAGARSINH DILIPSINH ZALA",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 47,
+    "kendra": "KARANPURA",
+    "name": "AKSHAY BHIKHABHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 48,
+    "kendra": "KOTHARPURA",
+    "name": "RAVINKUMAR DHANAJI THAKOR",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 49,
+    "kendra": "KOTHARPURA",
+    "name": "RAHULJI RAMESHJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 50,
+    "kendra": "MANIDHAR",
+    "name": "DEVAM MANOJBHAI MAKWANA",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 51,
+    "kendra": "SAPAVADA",
+    "name": "SACHINKUMAR DIPAKBHAI DARAJI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 52,
+    "kendra": "SAPAVADA",
+    "name": "VISHALBHAI JAYANTIBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 53,
+    "kendra": "SHANKHALPUR",
+    "name": "MUKESHBHAI JAYANTIBHAI PRAJAPATI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 54,
+    "kendra": "SHANKHALPUR",
+    "name": "DHRUV VISHNUBHAI PRAJAPATI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 55,
+    "kendra": "SURAJ",
+    "name": "RAHULJI FULJIJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 56,
+    "kendra": "SURAJ",
+    "name": "NITIN BECHARBHAI NADODA",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 57,
+    "kendra": "VAIJNATH",
+    "name": "NIKHIL HARESHBHAI THAKOR",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 58,
+    "kendra": "VAIJNATH",
+    "name": "HARSH HITESHBHAI CHAVDA",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "બેચરાજી"
+  },
+  {
+    "id": 59,
+    "kendra": "લાગુ નથી",
+    "name": "BRIJESH BHARATBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 60,
+    "kendra": "લાગુ નથી",
+    "name": "RAJ BHARATBHAI PATEL",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 61,
+    "kendra": "લાગુ નથી",
+    "name": "HARSH MUKESHBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 62,
+    "kendra": "લાગુ નથી",
+    "name": "MEET MUKESHBHAI PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 63,
+    "kendra": "લાગુ નથી",
+    "name": "RAJ MAHESHBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 64,
+    "kendra": "લાગુ નથી",
+    "name": "VIVEK HITESHBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "અવેક્ષક ",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 65,
+    "kendra": "ANKIT VIDHYALAYA",
+    "name": "DAVE RAJ SANJAYKUMAR",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 66,
+    "kendra": "ANKIT VIDHYALAYA",
+    "name": "SAIFY MAYURBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 67,
+    "kendra": "ARSODIA",
+    "name": "VISHAL ASHOKBHAI PRAJAPATI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 68,
+    "kendra": "ARSODIA",
+    "name": "SHURESHJI BALDEVJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 69,
+    "kendra": "CHHATRAL",
+    "name": "AYUSH PRAKASHBHAI RAMI",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 70,
+    "kendra": "CHHATRAL",
+    "name": "KISHAN PRAHLADBHAI PRAJAPATI",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 71,
+    "kendra": "DHANAJ",
+    "name": "SMIT BHARATBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 72,
+    "kendra": "DHANAJ",
+    "name": "RAJ KAMLESHBHAI PRAJAPATI",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 73,
+    "kendra": "FORTUNE",
+    "name": "HARSH RAMESHBHAI NAYEE",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 74,
+    "kendra": "FORTUNE",
+    "name": "MEET ASHOKBHAI VALAND",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 75,
+    "kendra": "GAYTRI",
+    "name": "HARSH VITTHALBHAI MALI",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 76,
+    "kendra": "GAYTRI",
+    "name": "ANUJ DEEPAKBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 77,
+    "kendra": "GOPALNAGAR",
+    "name": "ADARSH AMBALAL SHARMA",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 78,
+    "kendra": "GOPALNAGAR",
+    "name": "MANISH KANTIBHAI SUTHAR",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 79,
+    "kendra": "HALL",
+    "name": "DHAVAL PRAVINKUMAR RAVAL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 80,
+    "kendra": "ISAND",
+    "name": "VIPULJI SANAJI THAKOR",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 81,
+    "kendra": "JAMDA",
+    "name": "DEEP PARESHBHAI PRAJAPATI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 82,
+    "kendra": "JAMDA",
+    "name": "DEV DINESHBHAI PRAJAPATI",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 83,
+    "kendra": "JOYFULL SCHOOL",
+    "name": "RUSHI GHANSHYAMBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 84,
+    "kendra": "JOYFULL SCHOOL",
+    "name": "KARMA RAJESHKUMAR PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 85,
+    "kendra": "KALYANPOORA",
+    "name": "SACHIN KAMLESHBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 86,
+    "kendra": "KALYANPOORA",
+    "name": "MILAN KANTIBHAI PRAJAPATI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 87,
+    "kendra": "KIRC HOSTEL",
+    "name": "HARDIK BALUBHAI KALSARIYA",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 88,
+    "kendra": "LAXMINAGAR",
+    "name": "MEET JAGDISHBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 89,
+    "kendra": "LAXMINAGAR",
+    "name": "AAKASH MUKESHBHAI PRAJAPATI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 90,
+    "kendra": "NADANVAN",
+    "name": "DARSHAN SURESHBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 91,
+    "kendra": "NADANVAN",
+    "name": "MAYURKUMAR DINESHBHAI PADHIYAR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 92,
+    "kendra": "NARDIPUR",
+    "name": "DHARMENDRA GOVINDBHAI PRAJAPATI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 93,
+    "kendra": "NARDIPUR",
+    "name": "JITENDRASINH PANKESHKUMAR VAGHELA",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 94,
+    "kendra": "PALSANA",
+    "name": "DHRUVIL MITESHBHAI JETHAVA",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 95,
+    "kendra": "PALSANA",
+    "name": "BALVANT ARVINDBHAI PRAJAPATI",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 96,
+    "kendra": "PANSAR",
+    "name": "NIRAV BHARATBHAI RAVAL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 97,
+    "kendra": "PANSAR",
+    "name": "ADARSH KANUBHAI RAVAL",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 98,
+    "kendra": "PIYAJ",
+    "name": "AMAN PRAKASHBHAI PARMAR",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 99,
+    "kendra": "PIYAJ",
+    "name": "VISHAL RAJESHKUMAR RAVAL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 100,
+    "kendra": "PURVA VISTAR",
+    "name": "DEVARSHI PANKAJBHAI VANIYA",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 101,
+    "kendra": "PURVA VISTAR",
+    "name": "MANISHBHAI SHUBHASHBHAI NIKUM",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 102,
+    "kendra": "RADHESYAM",
+    "name": "PIYUSH CHHAGANBHAI PANCHAL",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 103,
+    "kendra": "RADHESYAM",
+    "name": "NARESH RAMESHBHAI PRAJAPATI",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 104,
+    "kendra": "RANCHARDA",
+    "name": "YASH NARESHKUMAR PARMAR",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 105,
+    "kendra": "SABASPUR",
+    "name": "ROHIT JAYANTIJI THAKOR",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 106,
+    "kendra": "SABASPUR",
+    "name": "VISHAL VIRAMBHAI RABARI",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 107,
+    "kendra": "SANAVAD",
+    "name": "MANOJ VISHNUJI THAKOR",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 108,
+    "kendra": "SANAVAD",
+    "name": "PRAKASHJI BHARATJI THAKOR",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 109,
+    "kendra": "SNEH",
+    "name": "ARTH VINODBHAI PATEL",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 110,
+    "kendra": "SNEH",
+    "name": "RUDRAKSH HIRENKUMAR DAVE",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 111,
+    "kendra": "SOBHASAN",
+    "name": "MANDEEP KANUJI THAKOR",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 112,
+    "kendra": "SOBHASAN",
+    "name": "NIGAM KANUBHAI PATEL",
+    "varg": "ભાવનીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 113,
+    "kendra": "SOJA",
+    "name": "MITUL MUKESHBHAI PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 114,
+    "kendra": "SOJA",
+    "name": "HARSH SOMABHAI PRAJAPATI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 115,
+    "kendra": "VAIJNATH",
+    "name": "AJAY MANUBHAI PATEL",
+    "varg": "સામાજીક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 116,
+    "kendra": "VAIJNATH",
+    "name": "ILESH ATULBHAI PATEL",
+    "varg": "આધ્યાત્મિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 117,
+    "kendra": "WHITE HOUSE",
+    "name": "RAHUL JAYANTILAL JANI",
+    "varg": "આર્થિક ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  },
+  {
+    "id": 118,
+    "kendra": "WHITE HOUSE",
+    "name": "JEET KANIYALAL PATEL",
+    "varg": "રાજકીય ક્રાંતિ  ",
+    "designation": "સંચાલક",
+    "taluko": "કલોલ"
+  }
+]

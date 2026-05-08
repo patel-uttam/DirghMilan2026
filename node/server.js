@@ -35,12 +35,12 @@ fastify.register(require("@fastify/view"), {
 });
 
 // Load and parse SEO data
-const seo = require("./src/seo.json");
-if (seo.url === "glitch-default") {
-  seo.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me`;
-}
+// const seo = require("./src/seo.json");
+// if (seo.url === "glitch-default") {
+//   seo.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me`;
+// }
 
-const filePath = path.join(__dirname, '/src/attendance.json');
+const filePath = path.join('','/etc/secrets/attendance.json');
 
 // Make sure the file exists and is initialized as an array
 fs.ensureFileSync(filePath);
@@ -55,7 +55,7 @@ fastify.get('/', async function handler (request, reply) {
 fastify.get('/attendees', async function handler (request, reply) {
   
     try {
-    const data = await fs.readJson("./src/attendees.json");
+    const data = await fs.readJson("/etc/secrets/attendees.json");
     reply.send(data);
   } catch (err) {
     request.log.error(err);
