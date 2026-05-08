@@ -189,7 +189,7 @@
         async function loadData() {
             
             const talukaSelect = document.getElementById('talukaSelect');
-            const talukas = [{"display":"કડી", val:"kad"},{"display":"બેચરાજી", val:"bec"},{"display":"કલોલ", val:"kal"}];
+            const talukas = [{"display":"CHANASMA", val:"CHANASMA"},{"display":"HARIJ", val:"HARIJ"},{"display":"KADI", val:"KADI"},{"display":"PATAN", val:"PATAN"},{"display":"SAMI", val:"SAMI"},{"display":"SIDDHPUR", val:"SIDDHPUR"},{"display":"PATAN", val:"PATAN"},{"display":"UNJHA", val:"UNJHA"}];
 
             talukas.forEach(t => {
                 const option = document.createElement('option');
@@ -211,7 +211,7 @@
           
             document.getElementById('attandeeList').innerHTML = '';
           
-            const resRawData = await fetch(`https://yuvakendradirghmilan2026.onrender.com/attendees/${selectedTalukaValue}`);
+            const resRawData = await fetch(`https://yuvakendradirghmilan2026.onrender.com/attendees`);
             rawData = await resRawData.json();
           
             const kendraSelect = document.getElementById('kendraSelect');
@@ -220,7 +220,7 @@
             const kendras = [
                 ...new Set(
                     rawData
-                        .filter(item => item.taluko === selectedTalukaDisplay).map(x => x.kendra)
+                        .filter(item => item.taluko === selectedTalukaDisplay).map(x => x.kendra || 'Vibhag/taluka/Jilla Javabdar')
                 )
             ];
 
