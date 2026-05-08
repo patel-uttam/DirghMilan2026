@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "kendra": "",
+    "name": "SURESHBHAI NARANBHAI DODIYA",
+    "varg": 3,
+    "designation": "Jilla Sannidhata",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 2,
+    "kendra": "",
+    "name": "PARESHBHAI GANDABHAI PRAJAPATI",
+    "varg": 1,
+    "designation": "Taluka Sannidhata",
+    "taluko": "KADI"
+  },
+  {
+    "id": 3,
+    "kendra": "",
+    "name": "VIJAYSINH BABUJI DARBAR",
+    "varg": 4,
+    "designation": "Taluka Sannidhata",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 4,
+    "kendra": "",
+    "name": "PIYUSHBHAI JAGMALBHAI RATHOD",
+    "varg": 5,
+    "designation": "Taluka Sannidhata",
+    "taluko": "PATAN"
+  },
+  {
+    "id": 5,
+    "kendra": "",
+    "name": "DILIPKUMAR DAHYABHAI PRAJAPATI",
+    "varg": 6,
+    "designation": "Taluka Sannidhata",
+    "taluko": "SAMI"
+  },
+  {
+    "id": 6,
+    "kendra": "",
+    "name": "RUSHIBHAI HITESHBHAI KANDOI",
+    "varg": 2,
+    "designation": "Avekshak",
+    "taluko": "KADI"
+  },
+  {
+    "id": 7,
+    "kendra": "",
+    "name": "KAUTIKBHAI MANUBHAI PATEL",
+    "varg": 5,
+    "designation": "Avekshak",
+    "taluko": "KADI"
+  },
+  {
+    "id": 8,
+    "kendra": "",
+    "name": "DHRUVKUMAR KAUSHIKBHAI ZINZUWADIYA",
+    "varg": 1,
+    "designation": "Avekshak",
+    "taluko": "KADI"
+  },
+  {
+    "id": 9,
+    "kendra": "",
+    "name": "SETU RAMESHBHAI PATEL",
+    "varg": 3,
+    "designation": "Avekshak",
+    "taluko": "UNJHA"
+  },
+  {
+    "id": 10,
+    "kendra": "",
+    "name": "PRADIPSINH BHRATSINH RAJPUT",
+    "varg": 4,
+    "designation": "Avekshak",
+    "taluko": "UNJHA"
+  },
+  {
+    "id": 11,
+    "kendra": "",
+    "name": "KARTIKKUMAR RAMESHBHAI PRAJAPATI",
+    "varg": 2,
+    "designation": "Avekshak",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 12,
+    "kendra": "",
+    "name": "AKASHKUMAR DINESHBHAI PATEL",
+    "varg": 1,
+    "designation": "Avekshak",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 13,
+    "kendra": "",
+    "name": "NISARGSINH AMARSINH THAKOR",
+    "varg": 6,
+    "designation": "Avekshak",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 14,
+    "kendra": "",
+    "name": "BRIJESH GANPATBHAI PATEL",
+    "varg": 5,
+    "designation": "Avekshak",
+    "taluko": "CHANASMA"
+  },
+  {
+    "id": 15,
+    "kendra": "",
+    "name": "DHARMIKBHAI PANKAJBHAI MEHTA",
+    "varg": 3,
+    "designation": "Avekshak",
+    "taluko": "PATAN"
+  },
+  {
+    "id": 16,
+    "kendra": "",
+    "name": "CHETAKJI BABUJI THAKOR",
+    "varg": 4,
+    "designation": "Avekshak",
+    "taluko": "PATAN"
+  },
+  {
+    "id": 17,
+    "kendra": "",
+    "name": "AVIBHAI JITENDRABHAI PATEL",
+    "varg": 1,
+    "designation": "Avekshak",
+    "taluko": "PATAN"
+  },
+  {
+    "id": 18,
+    "kendra": "",
+    "name": "ATRIBHAI YOGESHBHAI THAKKAR",
+    "varg": 2,
+    "designation": "Avekshak",
+    "taluko": "PATAN"
+  },
+  {
+    "id": 19,
+    "kendra": "",
+    "name": "NIHARBHAI GHANSHYAMBHAI THAKKAR",
+    "varg": 5,
+    "designation": "Avekshak",
+    "taluko": "SIDDHPUR"
+  },
+  {
+    "id": 20,
+    "kendra": "",
+    "name": "DIPAKSINH RAMABHAI RATHOD",
+    "varg": 6,
+    "designation": "Avekshak",
+    "taluko": "SAMI"
+  }
+]

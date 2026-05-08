@@ -211,7 +211,7 @@
           
             document.getElementById('attandeeList').innerHTML = '';
           
-            const resRawData = await fetch(`https://torpid-obvious-beak.glitch.me/attendees/${selectedTalukaValue}`);
+            const resRawData = await fetch(`https://yuvakendradirghmilan2026.onrender.com/attendees/${selectedTalukaValue}`);
             rawData = await resRawData.json();
           
             const kendraSelect = document.getElementById('kendraSelect');
@@ -372,7 +372,7 @@
                 attandeeName.timestamp = new Date(Date.now()).toLocaleString();
             }
           
-            let resAttendanceList = await fetch('https://torpid-obvious-beak.glitch.me/attendanceList');
+            let resAttendanceList = await fetch('https://yuvakendradirghmilan2026.onrender.com/attendanceList');
             let attendanceList = await resAttendanceList.json();
             
             
@@ -384,7 +384,7 @@
               return;
             }
           
-            fetch('https://torpid-obvious-beak.glitch.me/attendance', {
+            fetch('https://yuvakendradirghmilan2026.onrender.com/attendance', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
