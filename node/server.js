@@ -66,7 +66,7 @@ fastify.get('/attendees', async function handler (request, reply) {
 
 fastify.get('/questions', async function handler (request, reply) {
   try {
-    const data = await fs.readJson("./src/questions.json");
+    const data = await fs.readJson(path.join(__dirname, "/questions.json"));
     reply.send(data);
   } catch (err) {
     request.log.error(err);
