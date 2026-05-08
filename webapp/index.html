@@ -250,7 +250,7 @@
             const designations = [
                 ...new Set(
                     rawData
-                        .filter(item => item.taluko === selectedTalukaDisplay && item.kendra === selectedkendra).map(x => x.designation)
+                        .filter(item => item.taluko === selectedTalukaDisplay && (item.kendra || "Vibhag/taluka/Jilla Javabdar") === selectedkendra).map(x => x.designation)
                 )
             ];
 
@@ -283,7 +283,7 @@
             const attandees = [
                 ...new Set(
                     rawData
-                        .filter(item => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.designation === selectedDesignation)
+                        .filter(item => item.taluko === selectedTalukaDisplay && (item.kendra || "Vibhag/taluka/Jilla Javabdar") === selectedKendra && item.designation === selectedDesignation)
                 )
             ];
           
@@ -358,7 +358,7 @@
             const selectedName = document.querySelector('input[name="attandee"]:checked').value;
             const attendeeId = document.querySelector('input[name="attandee"]:checked').getAttribute("attendee_id")
             
-            const attandeeName = rawData.find((item) => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.name === selectedName && item.id == Number(attendeeId));
+            const attandeeName = rawData.find((item) => item.taluko === selectedTalukaDisplay && (item.kendra || "Vibhag/taluka/Jilla Javabdar") === selectedKendra && item.name === selectedName && item.id == Number(attendeeId));
           
             if(!attandeeName){
               alert("No attandees are found - reporting failed.");
@@ -376,7 +376,7 @@
             let attendanceList = await resAttendanceList.json();
             
             
-            let _attendee = attendanceList.find((item) => item.taluko === selectedTalukaDisplay && item.kendra === selectedKendra && item.name === selectedName && item.id === attandeeName.id);
+            let _attendee = attendanceList.find((item) => item.taluko === selectedTalukaDisplay && (item.kendra || "Vibhag/taluka/Jilla Javabdar") === selectedKendra && item.name === selectedName && item.id === attandeeName.id);
           
             if(_attendee && _attendee.name && _attendee.name.length > 0){
               showPage('startAttandance');

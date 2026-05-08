@@ -142,7 +142,7 @@
 
       // Hardcoded credentials
       const validUsername = 'admin';
-      const validPassword = 'Dirghmilan2025';
+      const validPassword = 'Dirghmilan2026';
 
       if (username === validUsername && password === validPassword) {
         displayUserListByTaluka();
@@ -164,7 +164,7 @@
     // Helper function: value count by key
     function countByKey(data, key) {
       return data.reduce((acc, curr) => {
-        const val = curr[key]?.trim();
+        const val = curr[key];
         if (val) {
           acc[val] = (acc[val] || 0) + 1;
         }
